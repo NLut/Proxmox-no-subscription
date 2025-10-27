@@ -1,11 +1,7 @@
 # Proxmox-no-subscription
-## Make it executable
-```
-chmod +x fix-proxmox-repos.sh
-```
 ## Run it
 ```
-./fix-proxmox-repos.sh
+bash Proxmox-no-subscription/fix-proxmox-repos.sh
 ```
 ### Notes:
 * This script assumes Debian Bookworm + Proxmox VE 8.x + Ceph Quincy.
